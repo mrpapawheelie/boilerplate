@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net" modified="2023-08-08T20:42:30.286Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.7" etag="DSbpz-EFaXaZfIzTWG5P" type="github">
+  <diagram name="Page-1" id="qkieXVnPIpTk0FImO90U">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="search GET request" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry y="12" width="154" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="chatGPT hands a summarized output" style="rounded=1;absoluteArcSize=1;arcSize=14;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="269" y="12" width="278" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Query" style="curved=1;startArrow=none;endArrow=block;exitX=0.9978693181818182;exitY=0.17234029830346315;entryX=-0.000056205035971223025;entryY=0.09461960535048278;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" value="Response" style="curved=1;startArrow=none;endArrow=block;exitX=-0.000056205035971223025;exitY=0.9053803946495173;entryX=0.9978693181818182;entryY=0.8276597016965368;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="49" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
